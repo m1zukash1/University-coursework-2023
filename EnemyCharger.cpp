@@ -38,7 +38,7 @@ void EnemyCharger::update(sf::RenderWindow& window, sf::View& camera, float delt
 
     float distance = lenght(sf::Vector2f(dx, dy));
 
-    if (raycastUpdateClock.getElapsedTime().asSeconds() > 0.0f)
+    if (raycastUpdateClock.getElapsedTime().asSeconds() > 0.25f)
     {
         raycastResult = raycast(player.getPosition(), collisionBoxes, window); //true = no direct sight, false = is direct sight (from enemy to player)
         raycastUpdateClock.restart();
