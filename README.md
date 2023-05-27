@@ -19,6 +19,8 @@ Enemies:
   
 This coursework received maximum possible grade. 
 
+Note: If you are using debug draw, you may notice some flickering. This happens because the rays are not cast continuously, but rather at specific intervals to improve performance.
+
 # Screenshots
 ![](Screenshots/screenshot1.png)
 ![](Screenshots/screenshot2.png)
